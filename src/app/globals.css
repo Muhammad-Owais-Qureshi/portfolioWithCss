@@ -210,6 +210,9 @@ body {
   .responce{
     display: block;
   }
+  .slidernavbar{
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -218,5 +221,8 @@ body {
   }
   .responce{
     display: block;
+  }
+  .slidernavbar{
+    display: none;
   }
 }
