@@ -16,10 +16,30 @@ const Hero = () => {
             is to create and webside design, Frontend design, and many more...</p>
 
            <div className="iconeItems">
-           <FaFacebook className="icone" />
-            <FaLinkedin className="icone"/>
+            <a href="https://www.facebook.com/OwaisQureshi" 
+               target="_blank" 
+            >
+            <FaFacebook className="icone" />
+            </a>
+
+            <a href="https://www.linkedin.com/OwaisQureshi" 
+               target="_blank"
+               >
+               <FaLinkedin className="icone"/>
+            </a>
+           
+            <a href="https://www.whatsapp.com/OwaisQureshi" 
+               target="_blank"
+               >
             <RiWhatsappFill className="icone" />
-            <FaYoutube className="icone"/>
+            </a>
+
+            <a href="https://www.youtube.com/OwaisQureshi" 
+               target="_blank"
+               >
+                 <FaYoutube className="icone"/>
+               </a>
+           
            </div>
           
            <Link href={"/about"}><button className="btn">Explore</button></Link>
