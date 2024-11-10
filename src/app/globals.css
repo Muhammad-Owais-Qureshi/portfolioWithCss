@@ -71,6 +71,7 @@ body {
   border: 2px transparent rgb(4, 4, 46);
   border-radius: 50%;
   padding: 8px;
+  color: white;
 }
 .iconeItems{
   margin-top: 20px;
